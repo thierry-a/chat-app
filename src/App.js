@@ -1,15 +1,15 @@
-import React from 'react';
+import React from "react";
 import "./components/Contact.css";
-import ContactList from "./components/ContactList";
-import './App.css';
+import Contact from "./components/Contact";
+import data from "./components/data";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <ContactList />
+      <Contact {...data} />
     </div>
   );
 }
-
 
 export default App;
